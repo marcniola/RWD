@@ -1,0 +1,84 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+.profile_img{
+	margin-left: 115px;
+	/*margin-left:auto;
+	margin-right:auto;
+	margin:0 auto;*/
+}
+
+/* - - portfolio*/
+
+ul.project{
+padding: 0px;
+margin: 0px;
+list-style-type : none;
+max-width: 968px;
+}
+
+ul.project li {
+margin: 0px 10px 16px 0px;
+/*border: 4px solid #D1CAC2;*/
+width: 220px;
+height: 180px;
+background: #FFFFFF;
+float : left;
+display : inline;
+}
+
+
+.imgwithcap{
+	margin: 0;
+	overflow: hidden;
+	float: left;
+	position: relative;
+}
+
+.imgwithcap a{
+	text-decoration: none;
+	float: left;
+}
+
+.imgwithcap a:hover{
+	cursor: pointer;
+}	
+.imgwithcap a:hover .title{
+		display: block;
+		font-size: 1em;
+		padding: 4px;
+		background: #111;
+		filter:alpha(opacity=75);
+		opacity:.75;
+		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=75)"; /*--IE 8 Transparency--*/
+		color: #fff;
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		margin: 0;
+		width: 100%;
+		border-bottom: 1px solid #999;
+	}
+	
+.imgwithcap a .title {	display: none; }
+.imgwithcap p {margin-left:10px;}
+.innertube{
+margin: 10px 10px 15px 10px; /*Margins for inner DIV inside each DIV (to provide padding)*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
